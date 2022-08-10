@@ -1,0 +1,338 @@
+﻿/*
+Serang, 30 December 2021
+--------------
+Harimau Bamboo by Macan Rabiez
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #00008B;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(https://archive.org/download/bgbaru/bgbaru.jpg); background-attachment: fixed; background-size: cover;
+}
+}
+img {
+  max-width: 100%;
+}
+blockquote {
+  margin: 10px;
+  padding: 5px;
+  color: #FA8072;
+  background: #efefef;
+  border-radius: 3px;
+}
+.hdd,
+.blog-button {
+  display: none;
+}
+header {
+  background: #696969;
+  border-bottom: 3px solid #000000;
+  line-height: 50px;
+  background-image: linear-gradient(#A9A9A9, #808080, #696969);
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+header#blog-header a {
+  color: #fff;
+}
+header#blog-header .blog-name,
+header#blog-header .blog-menu,
+header#blog-header ul li {
+  display: inline-block;
+}
+header#blog-header .blog-menu.menu-auth {
+  float: right;
+}
+header#blog-header .blog-name {
+  padding: 0 10px 0 0;
+  text-transform: uppercase;
+}
+header#blog-header .blog-name h1,
+header#blog-header .blog-name h2 {
+  font-size: 15px;
+}
+header#blog-header ul li a {
+  display: block;
+  padding: 0 5px;
+}
+header#blog-header .blog-name h1 a {
+  display: block;
+  padding: 0 5px;
+}
+span.icon-blog {
+  background-image: url(https://archive.org/download/heading_202201/heading.png);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: absolute;
+}
+header#blog-header .blog-name a span.blog-names {
+  margin-left: 55px;
+}
+header#blog-header .menu-search {
+	display: none;
+}
+.content-blog {
+  max-width: 760px;
+  margin: 10px auto;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 17px;
+}
+.content-blog h2.blog-highlight {
+  font-size: 20px;
+  color: #fff;
+  font-weight: normal;
+  padding: 5px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  background: #696969;
+}
+.blog-pagination {
+  text-align: center;
+}
+.blog-pagination ul li {
+  display: inline-block;
+}
+.blog-pagination ul li a,
+.blog-pagination ul li span {
+  display: block;
+  padding: 4px;
+  margin: 3px;
+  background: #efefef;
+  border-radius: 4px;
+  border: 1px solid #bdbdbd;
+}
+footer#blog-footer {
+  background-image: url(https://archive.org/download/foot_20220126/foot.jpg);
+  border-top: 3px solid #fff;
+}
+footer#blog-footer .blog-copy,
+footer#blog-footer .blog-powered {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer#blog-footer .blog-pages ul.blog-pages-ul-list li {
+  display: inline-block;
+}
+footer#blog-footer .blog-pages ul.blog-pages-ul-list li a {
+  display: block;
+  padding: 3px 5px;
+  background: #efefef;
+  border-radius: 3px;
+  margin: 0 3px;
+}
+.clear {
+  clear: both;
+}
+.content-blog section {
+  float: left;
+  padding: 5px;
+}
+.content-blog section#blog-content {
+  width: 65%;
+}
+.content-blog section#blog-sidebar {
+  width: 35%;
+}
+.content-blog section#blog-content article,
+.content-blog section#blog-content #comments ul li,
+.content-blog section#blog-content #guestbook ul li {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  border-bottom: 5px solid #ddd;
+  margin: 5px 0;
+}
+.content-blog section#blog-content article.blog-post-item .blog-post-header,
+.content-blog section#blog-content #comments ul li .comment-list-header,
+.content-blog section#blog-content #guestbook ul li .guestbook-list-header {
+  border-bottom: 1px solid #dedede;
+}
+.content-blog section#blog-content article.blog-post-item .blog-post-header .blog-header-title,
+.content-blog section#blog-content article.blog-post-item .blog-post-header h2,
+.content-blog section#blog-content article.blog-post-item .blog-post-header .blog-post-title,
+.content-blog section#blog-content #comments ul li .comment-list-header h5,
+.content-blog section#blog-content #guestbook ul li .guestbook-list-header h5 {
+  font-size: 20px;
+  padding: 5px 5px 5px 8px;
+}
+.content-blog section#blog-content article.blog-post-item .blog-post-header .blog-post-meta,
+.content-blog section#blog-content article.blog-post-item .blog-post-header h2.blog-post-meta-categories,
+.content-blog section#blog-content article.blog-post-item .blog-post-header h3.blog-header-meta,
+.content-blog section#blog-content #comments ul li .comment-list-header .comment-date,
+.content-blog section#blog-content #guestbook ul li .comment-list-header .guestbook-date,
+.content-blog section#blog-content #comments h3,
+.content-blog section#blog-content #guestbook h3 {
+  padding: 0px 5px 5px 8px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.content-blog section#blog-content #comments .new-comment textarea.input-textarea,
+.content-blog section#blog-content #guestbook .new-guestbook textarea.input-textarea {
+  width: 100%;
+  min-height: 70px;
+  margin: 2px 0;
+}
+.content-blog section#blog-content #comments .new-comment textarea.input-textarea.input-blog-text,
+.content-blog section#blog-content #guestbook .new-guestbook textarea.input-textarea.input-blog-text {
+  min-height: 120px;
+  padding: 10px;
+  font-size: 17px;
+}
+.content-blog section#blog-content article.blog-post-item .blog-post-content,
+.content-blog section#blog-content #comments h3,
+.content-blog section#blog-content #guestbook h3 {
+  padding: 5px;
+}
+.content-blog section#blog-content article.blog-post-item .blog-post-content {
+  text-align: justify;
+}
+.content-blog section#blog-content article.blog-post-item .blog-post-content img.thumbnail-post {
+  float: left;
+  width: 200px;
+  height: 110px;
+  border: 3px solid #ddd;
+  padding: 5px;
+  margin-right: 5px;
+}
+.content-blog section#blog-content article.blog-post-item .blog-post-footer {
+  padding: 5px;
+  border-top: 1px solid #dedede;
+}
+.content-blog section#blog-sidebar {
+  padding: 5px 10px;
+}
+.content-blog section#blog-sidebar ul {
+  list-style: none;
+}
+.content-blog section#blog-sidebar ul li {
+  padding: 5px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+.content-blog section#blog-sidebar h3 {
+  padding: 5px 5px 5px 8px;
+  background: #000000;
+  color: #A9A9A9;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 2px 0;
+}
+.form-text {
+  float: left;
+  width: 65%;
+  padding: 5px;
+}
+.form-button {
+  float: left;
+  width: 35%;
+  padding: 5px;
+}
+input.input-text {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+button.btn {
+  width: 100%;
+  border-radius: 3px;
+}
+button.btn-block {
+  display: block;
+}
+button.btn-primary {
+  padding: 8px;
+  background: #808080;
+  color: #fff;
+  border: 1px solid #696969;
+}
+button.btn-comment,
+button.btn-guestbook {
+  margin: 2px 0;
+}
+.content-blog section#blog-content ul li {
+  list-style: none;
+}
+.content-blog section#blog-content #comments ul li .comment-list-header,
+.content-blog section#blog-content #guestbook ul li .guestbook-list-header {
+  font-size: 15px;
+}
+.notice {
+  padding: 5px 5px 5px 10px;
+  border-left-width: 3px;
+  border-left-style: solid;
+}
+.notice.notice-warning {
+  color: #3CB371;
+}
+.notice.notice-info {
+  color: #0e09bf;
+}
+.notice.notice-error {
+  color: #bd0d0d;
+}
+.notice.notice-success {
+  color: #20B2AA;
+}
+@media(max-width: 768px)
+{
+  .content-blog section#blog-content,
+  .content-blog section#blog-sidebar {
+    width: 100%;
+  }
+  .blog-button {
+    display: block;
+    float: right;
+  }
+  header#blog-header .blog-button ul li a {
+    padding: 0 10px;
+    display: block;
+  }
+  header#blog-header .blog-button ul li a:hover,
+  header#blog-header .blog-button ul li a:focus {
+    background: #A9A9A9;
+  }
+  header#blog-header .blog-menu {
+    display: none;
+  }
+  header#blog-header .blog-menu.menu-active {
+    display: block;
+  }
+  header#blog-header .blog-menu.menu-auth {
+    float: none;
+  }
+  header#blog-header .blog-menu ul li {
+    display: block;
+    border-top: 2px solid #000000;
+  }
+  header#blog-header .blog-menu ul li a {
+    padding: 0 10px;
+  }
+  .item-sidebar-search {
+    display: none;
+  }
+  header .form-text,
+  header .form-button {
+    line-height: 30px;
+    height: 40px;
+    padding: 5px;
+  }
+}
