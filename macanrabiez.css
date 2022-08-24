@@ -17,7 +17,11 @@ a {
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url(https://archive.org/download/bgbaru/bgbaru.jpg); background-attachment: fixed; background-size: cover;
+  background-color: #acaead;
+  background-image: url(https://archive.org/download/bgbaru/bgbaru.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 }
 img {
