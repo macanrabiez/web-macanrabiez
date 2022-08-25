@@ -18,7 +18,7 @@ a {
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #acaead;
-  background-image: url(https://archive.org/download/bgbaru/bgbaru.jpg);
+  background-image: url(gambar/stylesheet/bgbaru.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -76,7 +76,7 @@ header#blog-header .blog-name h1 a {
   padding: 0 5px;
 }
 span.icon-blog {
-  background-image: url(https://archive.org/download/heading_202201/heading.png);
+  background-image: url(gambar/stylesheet/heading.png);
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -123,7 +123,7 @@ header#blog-header .menu-search {
   border: 1px solid #bdbdbd;
 }
 footer#blog-footer {
-  background-image: url(https://archive.org/download/foot_20220126/foot.jpg);
+  background-image: url(gambar/stylesheet/foot.jpg);
   border-top: 3px solid #fff;
 }
 footer#blog-footer .blog-copy,
