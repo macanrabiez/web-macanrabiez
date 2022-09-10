@@ -28,6 +28,8 @@ body{
 
 .atas{
 	text-align: center;
+	max-width: 260px;
+	margin: 0 auto;
 }
 
 .atas a{
@@ -36,6 +38,16 @@ body{
 
 .atas a:hover{
 	color: #000;
+}
+
+.sosmed p{
+	transition: transform .2s;
+}
+
+.sosmed p:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
 }
 
 .row{
