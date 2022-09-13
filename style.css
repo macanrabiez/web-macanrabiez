@@ -52,6 +52,7 @@ body{
 
 .badan{
 	max-width: 760px;
+	min-height: 100vh;
 	margin: 50px auto;
 	background-color: #eaeaea;
 	padding: 20px;
@@ -74,6 +75,10 @@ body{
 	-ms-transform: scale(1.2); /* IE 9 */
 	-webkit-transform: scale(1.2); /* Safari 3-8 */
 	transform: scale(1.2);
+}
+
+.kontenutama p{
+	margin-bottom: 15px;
 }
 
 .bilahsisi{
