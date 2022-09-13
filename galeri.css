@@ -57,6 +57,7 @@ body{
   flex-wrap: wrap;
   margin: 50px auto;
   max-width: 900px;
+  min-height: 100vh;
 }
 
 /* Create four equal columns that sits next to each other */
