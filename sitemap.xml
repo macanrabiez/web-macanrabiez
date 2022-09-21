@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://www.macanrabiez.my.id/</loc>
+	<lastmod>2022-09-21T15:16:54+01:00</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://www.macanrabiez.my.id/dokumentasi</loc>
+	<lastmod>2022-09-21T15:16:54+01:00</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://www.macanrabiez.my.id/video</loc>
+	<lastmod>2022-09-21T15:16:54+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.macanrabiez.my.id/gambar</loc>
+	<lastmod>2022-09-21T15:16:54+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.macanrabiez.my.id/peta-situs</loc>
+	<lastmod>2022-09-21T15:16:54+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://www.macanrabiez.my.id/dokumentasi/</loc>
+	<lastmod>2022-09-21T15:16:56+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.macanrabiez.my.id/dokumentasi/</loc>
+	<lastmod>2022-09-21T15:16:56+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://www.macanrabiez.my.id/video/</loc>
+	<lastmod>2022-09-21T15:16:56+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.macanrabiez.my.id/video/</loc>
+	<lastmod>2022-09-21T15:16:57+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://www.macanrabiez.my.id/gambar/</loc>
+	<lastmod>2022-09-21T15:16:57+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://www.macanrabiez.my.id/peta-situs/</loc>
+	<lastmod>2022-09-21T15:16:57+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.macanrabiez.my.id/peta-situs/</loc>
+	<lastmod>2022-09-21T15:16:57+01:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.macanrabiez.my.id/gambar/</loc>
+	<lastmod>2022-09-21T15:16:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
