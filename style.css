@@ -77,6 +77,14 @@ body{
 	transform: scale(1.2);
 }
 
+.kontenutama a{
+	color: #000;
+}
+
+.kontenutama a:hover{
+	color: #5d6f87;
+}
+
 .kontenutama p{
 	margin-bottom: 15px;
 }
