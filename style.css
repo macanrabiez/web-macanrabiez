@@ -16,6 +16,7 @@ a{
 
 body{
 	font-family: 'Gochi Hand', cursive;
+	font-weight: 400;
 	font-size: 18px;
 	background-color: #aaabad;
 	background-image: url(berkas/harimaunew.jpg);
@@ -104,6 +105,7 @@ body{
 
 .bilahsisi li{
 	font-family: 'Rampart One', cursive;
+	font-weight: 400;
 	font-size: 20px;
 	list-style-type: none;
 	margin-left: 10px;
@@ -118,6 +120,7 @@ body{
 
 .bilahsisi h3{
 	font-family: 'Rampart One', cursive;
+	font-weight: 400;
 	color: #eaeaea;
 	text-align: center;
 	background-color: #000;
@@ -126,6 +129,7 @@ body{
 
 .kaki{
 	font-family: 'Rampart One', cursive;
+	font-weight: 400;
 	width: 100%;
 	color: #eaeaea;
 	padding: 20px;
